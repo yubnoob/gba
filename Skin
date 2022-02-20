@@ -1,0 +1,362 @@
+{
+  "name": "Pikachu Micro",
+  "identifier": "com.litritt.gba.Pikachumicro",
+  "gameTypeIdentifier": "com.rileytestut.delta.game.gba",
+  "debug": false,
+  "representations": {
+    "iphone": {
+      "standard" : {
+        "landscape" : {
+          "assets" : {
+            "resizable" : "iphone_landscape.pdf"
+          },
+          "items" : [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 20,
+                "y": 136,
+                "width": 119,
+                "height": 119
+              },
+              "extendedEdges": {
+                "left": 15,
+                "top": 15,
+                "right": 15,
+                "bottom": 15
+              }
+            },
+            {
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 593,
+                "y": 135,
+                "width": 57,
+                "height": 57
+              },
+              "extendedEdges": {
+                "left": 5,
+                "right": 15
+              }
+            },
+            {
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 528,
+                "y": 182,
+                "width": 57,
+                "height": 57
+              },
+              "extendedEdges": {
+                "left": 15,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "l"
+              ],
+              "frame": {
+                "x": 0,
+                "y": 7,
+                "width": 54,
+                "height": 54
+              },
+              "extendedEdges": {
+                "left": 5,
+                "top": 5,
+                "right": 20,
+                "bottom": 10
+              }
+            },
+            {
+              "inputs": [
+                "r"
+              ],
+              "frame": {
+                "x": 600,
+                "y": 7,
+                "width": 54,
+                "height": 54
+              },
+              "extendedEdges": {
+                "left": 20,
+                "top": 5,
+                "right": 5,
+                "bottom": 10
+              }
+            },
+            {
+              "inputs" : [
+                "start"
+              ],
+              "frame" : {
+                "x" : 366,
+                "y" : 299,
+                "width" : 25,
+                "height" : 25
+              }
+            },
+            {
+              "inputs" : [
+                "select"
+              ],
+              "frame" : {
+                "x" : 276,
+                "y" : 299,
+                "width" : 25,
+                "height" : 25
+              }
+            },
+            {
+              "inputs" : [
+                "menu"
+              ],
+              "frame" : {
+                "x" : 186,
+                "y" : 299,
+                "width" : 25,
+                "height" : 25
+              }
+            },
+            {
+              "inputs": [
+                "quickSave"
+              ],
+              "frame": {
+                "x": 540,
+                "y": 54,
+                "width": 25,
+                "height": 25
+              }
+            },
+            {
+              "inputs": [
+                "quickLoad"
+              ],
+              "frame": {
+                "x": 104,
+                "y": 54,
+                "width": 25,
+                "height": 25
+              }
+            },
+            {
+              "inputs": [
+                "toggleFastForward"
+              ],
+              "frame": {
+                "x": 456,
+                "y": 299,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ],
+          "gameScreenFrame": {
+            "x": 153,
+            "y": 48,
+            "width": 361,
+            "height": 240
+          },
+          "mappingSize" : {
+            "width" : 667,
+            "height" : 375
+          },
+          "extendedEdges" : {
+            "top" : 10,
+            "bottom" : 10,
+            "left" : 10,
+            "right" : 10
+          },
+          "translucent" : false
+        }
+      },
+      "edgeToEdge": {
+        "landscape": {
+          "assets": {
+            "resizable": "iphone_edgetoedge_landscape.pdf"
+          },
+          "items": [
+            {
+              "inputs": {
+                "up": "up",
+                "down": "down",
+                "left": "left",
+                "right": "right"
+              },
+              "frame": {
+                "x": 57,
+                "y": 121,
+                "width": 148,
+                "height": 148
+              },
+              "extendedEdges": {
+                "left": 15,
+                "top": 15,
+                "right": 15,
+                "bottom": 15
+              }
+            },
+            {
+              "inputs": [
+                "a"
+              ],
+              "frame": {
+                "x": 686,
+                "y": 124,
+                "width": 70,
+                "height": 70
+              },
+              "extendedEdges": {
+                "left": 5,
+                "right": 15
+              }
+            },
+            {
+              "inputs": [
+                "b"
+              ],
+              "frame": {
+                "x": 606,
+                "y": 180,
+                "width": 70,
+                "height": 70
+              },
+              "extendedEdges": {
+                "left": 15,
+                "right": 5
+              }
+            },
+            {
+              "inputs": [
+                "l"
+              ],
+              "frame": {
+                "x": 37,
+                "y": 7,
+                "width": 54,
+                "height": 54
+              },
+              "extendedEdges": {
+                "left": 5,
+                "top": 5,
+                "right": 20,
+                "bottom": 10
+              }
+            },
+            {
+              "inputs": [
+                "r"
+              ],
+              "frame": {
+                "x": 721,
+                "y": 7,
+                "width": 54,
+                "height": 54
+              },
+              "extendedEdges": {
+                "left": 20,
+                "top": 5,
+                "right": 5,
+                "bottom": 10
+              }
+            },
+            {
+              "inputs": [
+                "start"
+              ],
+              "frame": {
+                "x": 439,
+                "y": 299,
+                "width": 24,
+                "height": 24
+              }
+            },
+            {
+              "inputs": [
+                "select"
+              ],
+              "frame": {
+                "x": 349,
+                "y": 299,
+                "width": 24,
+                "height": 24
+              }
+            },
+            {
+              "inputs": [
+                "menu"
+              ],
+              "frame": {
+                "x": 259,
+                "y": 299,
+                "width": 24,
+                "height": 24
+              }
+            },
+            {
+              "inputs": [
+                "quickSave"
+              ],
+              "frame": {
+                "x": 612,
+                "y": 54,
+                "width": 25,
+                "height": 25
+              }
+            },
+            {
+              "inputs": [
+                "quickLoad"
+              ],
+              "frame": {
+                "x": 176,
+                "y": 54,
+                "width": 25,
+                "height": 25
+              }
+            },
+            {
+              "inputs": [
+                "toggleFastForward"
+              ],
+              "frame": {
+                "x": 529,
+                "y": 299,
+                "width": 24,
+                "height": 24
+              }
+            }
+          ],
+          "gameScreenFrame": {
+            "x": 226,
+            "y": 48,
+            "width": 360,
+            "height": 240
+          },
+          "mappingSize": {
+            "width": 812,
+            "height": 375
+          },
+          "extendedEdges": {
+            "top": 10,
+            "bottom": 10,
+            "left": 10,
+            "right": 10
+          },
+          "translucent": false
+        }
+      }
+    }
+  }
+}
